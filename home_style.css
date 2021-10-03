@@ -15,6 +15,7 @@ body {
   text-align: center;
   color: white;
   font-size: 25px;
+  line-height: 1.6;
 }
 
 .title {
@@ -44,12 +45,26 @@ body {
 #header {
   font-family: 'Bebas Neue', cursive;
   font-size: 100px;
+  height: 120px;
 }
 
 #header2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
+  height: 100px;
   font-weight: lighter;
+}
+
+.insetContent {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+p {
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* text-align: left; */
 }
 
 .footer {

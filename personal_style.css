@@ -15,6 +15,7 @@ body {
   text-align: center;
   color: white;
   font-size: 25px;
+  line-height: 1.6;
 }
 
 .title {
@@ -39,6 +40,20 @@ body {
   padding-right: 10px;
   color: white;
   font-size: 20px;
+}
+
+.insetContent {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+ul {
+  text-align: left;
+  font-weight: lighter;
+}
+
+.familyMembers a, .familyMembers a:visited {
+  color: white;
 }
 
 .footer {
