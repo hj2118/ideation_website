@@ -42,6 +42,10 @@ body {
   font-size: 20px;
 }
 
+.navMenu a:hover {
+  font-weight: bold;
+}
+
 h1 {
   font-family: 'Bebas Neue', cursive;
   font-size: 80px;
