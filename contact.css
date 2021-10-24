@@ -13,10 +13,11 @@ body {
   background: #d3e0f4;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  /* color: white; */
+  /* color: #f4e7d3; */
   font-size: 25px;
   line-height: 1.6;
 }
+
 
 .title {
   display: flex;
@@ -62,11 +63,11 @@ ul {
   font-weight: lighter;
 }
 
-.familyMembers a, .familyMembers a:visited {
+.contacts a, .contacts a:visited {
   color: black;
 }
 
-.familyMembers a:hover {
+.contacts a:hover {
   font-weight: bold;
 }
 

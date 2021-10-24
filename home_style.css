@@ -60,9 +60,10 @@ body {
 }
 
 .insetContent {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
+
 
 p {
   font-weight: lighter;

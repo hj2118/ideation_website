@@ -13,10 +13,11 @@ body {
   background: #d3e0f4;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  /* color: white; */
+  /* color: #f4e7d3; */
   font-size: 25px;
   line-height: 1.6;
 }
+
 
 .title {
   display: flex;
@@ -46,6 +47,11 @@ body {
   font-weight: bold;
 }
 
+.insetContent {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 h1 {
   font-family: 'Bebas Neue', cursive;
   font-size: 80px;
@@ -55,19 +61,6 @@ h1 {
 .insetContent {
   margin-left: 100px;
   margin-right: 100px;
-}
-
-ul {
-  text-align: left;
-  font-weight: lighter;
-}
-
-.familyMembers a, .familyMembers a:visited {
-  color: black;
-}
-
-.familyMembers a:hover {
-  font-weight: bold;
 }
 
 .footer {
