@@ -63,6 +63,34 @@ h1 {
   margin-right: 100px;
 }
 
+.familyMembers a, .familyMembers a:visited {
+  color: black;
+}
+
+.familyMembers a:hover {
+  font-weight: bold;
+}
+.twoColumns {
+  display: flex;
+  flex-direction: row;
+}
+
+.images {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+/* .info img {
+    object-fit: cover;
+    width: 80%;
+} */
+
 .footer {
   display: flex;
   color: grey;

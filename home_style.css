@@ -64,14 +64,6 @@ body {
   margin-right: 100px;
 }
 
-
-p {
-  font-weight: lighter;
-  margin-left: 10px;
-  margin-right: 10px;
-  /* text-align: left; */
-}
-
 .footer {
   display: flex;
   color: grey;
