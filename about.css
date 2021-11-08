@@ -78,12 +78,12 @@ h1 {
 .images {
   display: flex;
   flex-basis: 100%;
-  justify-content: space-between;
+  justify-content: center;
   margin: 10px;
 }
 
 .image {
-  width: 100%;
+  width: 80%;
   object-fit: cover;
 }
 /* .info img {
