@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="interests_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <meta charset="UTF-8">
   </head>
   <body>
@@ -26,7 +28,23 @@
     <div class="insetContent">
       <!-- <p>I love traveling. These are some places I have travelled.</p> -->
       <div class="gallery">
-        <div class="items">
+        <a class="images" data-fancybox="fancy" data-src="travel/1.jpg" data-caption="Yeosu, South Korea<br>07/27/2021"><img src="travel/1.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/2.jpg" data-caption="Yeosu, South Korea<br>07/27/2021"><img src="travel/2.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/3.jpg" data-caption="Yeosu, South Korea<br>07/27/2021"><img src="travel/3.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/4.jpg" data-caption="Yeosu, South Korea<br>07/27/2021"><img src="travel/4.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/5.jpg" data-caption="Pohang, South Korea<br>08/05/2021"><img src="travel/5.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/6.jpg" data-caption="Asan, South Korea<br>04/19/2021"><img src="travel/6.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/7.jpg" data-caption="Seoul, South Korea<br>12/04/2020"><img src="travel/7.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/8.jpg" data-caption="Busan, South Korea<br>05/30/20201"><img src="travel/8.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/9.jpg" data-caption="New York, United States<br>09/07/2019"><img src="travel/9.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/10.jpg" data-caption="Jeju-Island, South Korea<br>08/12/2019"><img src="travel/10.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/11.jpg" data-caption="Seoul, South Korea<br>10/07/2020"><img src="travel/11.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/12.jpg" data-caption="Seoul, South Korea<br>12/04/2020"><img src="travel/12.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/13.jpg" data-caption="Jeonju, South Korea<br>01/04/2020"><img src="travel/13.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/14.jpg" data-caption="Seoul, South Korea<br>12/10/2020"><img src="travel/14.jpg"></a>
+        <a class="images" data-fancybox="fancy" data-src="travel/15.jpg" data-caption="🛫<br>08/15/2019"><img src="travel/15.jpg"></a>
+
+        <!-- <div class="items">
           <img class="images" src="travel/1.jpg">
           <p class="img__description">Yeosu, South Korea<br>07/27/2021</p>
         </div>
@@ -108,27 +126,31 @@
         <div class="items">
           <img class="images" src="travel/15.jpg">
           <p class="img__description">🛫<br>08/15/2019</p>
-        </div>
-      </div>
+      </div> -->
+    </div>
     </div>
     <br>
 
     <h1>Perfume</h1>
     <div class="secondInsetContent">
-      <!-- <p>I love perfumes. These are my favorite perfumes.</p> -->
-      <div class="gallery">
-        <div class="items">
+      <div class="fancybox">
+        <!-- <div class="items">
         <img class="images" src="perfume/nude_rose.jpg">
         <p class="img__description">Philosophy grace - nude rose</p>
-        </div>
+        </div> -->
 
-        <div class="items">
+        <a data-fancybox="perfume" data-src="perfume/nude_rose.jpg" data-caption="Philosophy grace - nude rose"><img src="perfume/nude_rose.jpg"></a>
+        <a data-fancybox="perfume" data-src="perfume/versace.jpg" data-caption="Versace Bright Crystal Eau de Toilette"><img src="perfume/versace.jpg"></a>
+        <a data-fancybox="perfume" data-src="perfume/jlo.jpg" data-caption="Glow by Jennifer Lopez"><img src="perfume/jlo.jpg"></a>
+        <a data-fancybox="perfume" data-src="perfume/elizabeth.jfif" data-caption="Elizabeth - Sara"><img src="perfume/elizabeth.jfif"></a>
+
+        <!-- <div class="items">
           <img class="images" src="perfume/versace.jpg">
           <p class="img__description">Versace Bright Crystal Eau de Toilette</p>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
 
-      <div class="gallery">
+      <!-- <div class="gallery">
         <div class="items">
           <img class="images" src="perfume/jlo.jpg">
           <p class="img__description">Glow by Jennifer Lopez</p>
@@ -136,11 +158,13 @@
         <div class="items">
           <img class="images" src="perfume/elizabeth.jfif">
           <p class="img__description">Elizabeth - Sara</p>
-        </div>
+        </div> -->
       </div>
     </div>
     <br>
     <div class="footer">2021 HEEJIN CONSTANT OUTPUT</div>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   </body>
 </html>

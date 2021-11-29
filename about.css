@@ -63,13 +63,6 @@ h1 {
   margin-right: 100px;
 }
 
-.familyMembers a, .familyMembers a:visited {
-  color: black;
-}
-
-.familyMembers a:hover {
-  font-weight: bold;
-}
 .twoColumns {
   display: flex;
   flex-direction: row;
@@ -95,11 +88,11 @@ h1 {
   font-weight: bold;
 }
 
-.personality a:hover {
+a:hover {
   font-weight: bold;
 }
 
-.personality a:visited {
+a, a:visited {
   color: black;
 }
 
